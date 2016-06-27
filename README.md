@@ -1,6 +1,8 @@
 # printos-device-api-example-java
 Demonstrates the initial provisioning and login of a device into HP PrintOS as well as sending real-time status.
 
+See [https://youtu.be/_D_e7pbWXq4](https://youtu.be/_D_e7pbWXq4) for a short video tutorial of this code.
+
 ![Device Overview Screenshot](https://raw.githubusercontent.com/hpinc/printos-device-api-example-java/master/etc/images/device_overview.png)
 
 # Overview
