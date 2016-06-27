@@ -1,7 +1,7 @@
-# device-api-example
+# printos-device-api-example-java
 Demonstrates the initial provisioning and login of a device into HP PrintOS as well as sending real-time status.
 
-![Device Overview Screenshot](https://raw.githubusercontent.com/printos/device-api-example/master/etc/images/device_overview.png)
+![Device Overview Screenshot](https://raw.githubusercontent.com/hpinc/printos-device-api-example-java/master/etc/images/device_overview.png)
 
 # Overview
 HP PrintOS exposes a set of APIs to allow devices to be created, log in, and send real-time statistics.  Those
@@ -56,9 +56,9 @@ and password, and go to 'Account'
 in the app switcher and go to 'Devices'.  You'll see the device in the list, as well as on the home page along with
 the status you supplied.
 
-![Device List Screenshot](https://raw.githubusercontent.com/printos/device-api-example/master/etc/images/device_list.png)
+![Device List Screenshot](https://raw.githubusercontent.com/hpinc/printos-device-api-example-java/master/etc/images/device_list.png)
 
-![Device Tile Screenshot](https://raw.githubusercontent.com/printos/device-api-example/master/etc/images/device_tile.png)
+![Device Tile Screenshot](https://raw.githubusercontent.com/hpinc/printos-device-api-example-java/master/etc/images/device_tile.png)
 
 # Switching to Production
 In `settings.properties`, you'll see the following entry:
