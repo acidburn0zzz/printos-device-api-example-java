@@ -127,3 +127,10 @@ The device state must be one of these values:
 ```
 
 Using a different value will cause an error.
+
+### Which Devices Can I Add With This Sample Code?
+You should choose a device from the **IHPSPress** or **FinishingDevice** families.  The other device families have some restrictions.  Because LatexPrinter and ScitexPrinter are not indicated as "self-provisionable" devices, they do not return a login and password when you create the device.  (These devices are typically just added from the PrintOS Account application UI.)  Therefore, you do not have credentials required to subsequently log the device in and send statistics.  You can still create it, but you can't do anything interesting with it.
+
+Indigo devices will fail to provision because those have some additional back-end security checks to make sure the serial number of the device matches the correct organization.  The "ThreeDPrinter" family is only there for prototyping and does not have permissions to update statistics, so you'll get 401's if you try to post stats for those.
+
+If you leave the device type and model set to the default in settings.properties, the sample code should work for you.  If you are a device manufacturer and you want to have your device listed, please contact us and we can add it.
