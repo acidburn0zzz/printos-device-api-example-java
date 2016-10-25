@@ -1,3 +1,6 @@
+// © Copyright 2016 HP Development Company, L.P.
+// SPDX-License-Identifier: MIT
+
 package com.hp.printos.deviceapi.example;
 
 import com.hp.printos.deviceapi.example.util.HttpClientWrapper;
